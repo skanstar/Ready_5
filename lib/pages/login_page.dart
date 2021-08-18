@@ -53,8 +53,8 @@ class _LoginPageState extends State<LoginPage> {
                     height: 60.0,
                   ),
                   Container(
-                    height: 100,
-                    width: 40,
+                    height: 40,
+                    width: 100,
                     color: Colors.lightBlue,
                   )
                   // ElevatedButton(
