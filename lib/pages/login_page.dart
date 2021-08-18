@@ -56,6 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                     height: 50,
                     width: 150,
                     color: Colors.lightBlue,
+                    alignment: Alignment.center,
                     child: Text(
                       "Login",
                       style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
