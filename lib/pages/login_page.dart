@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                     alignment: Alignment.center,
                     child: Text(
                       "Login",
-                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
                     ),
                   )
                   // ElevatedButton(
