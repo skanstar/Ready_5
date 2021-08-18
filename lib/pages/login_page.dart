@@ -59,8 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: Center(
                       child: Text(
                         "Login",
-                        style: TextStyle(color: Colors.white
-                        fontWeight: FontWeight.bold),
+                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                       ),
                     ),
                   )
