@@ -56,11 +56,9 @@ class _LoginPageState extends State<LoginPage> {
                     height: 50,
                     width: 150,
                     color: Colors.lightBlue,
-                    child: Center(
-                      child: Text(
-                        "Login",
-                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-                      ),
+                    child: Text(
+                      "Login",
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                     ),
                   )
                   // ElevatedButton(
