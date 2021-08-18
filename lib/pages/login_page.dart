@@ -65,10 +65,12 @@ class _LoginPageState extends State<LoginPage> {
                       height: 50,
                       width: changeButtton ? 50 : 150,
                       alignment: Alignment.center,
-                      child: Text(
-                        "Login",
-                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
-                      ),
+                      child: changeButtton
+                          ? Icon(Icons.done)
+                          : Text(
+                              "Login",
+                              style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                            ),
                       decoration: BoxDecoration(color: Colors.lightBlue, borderRadius: BorderRadius.circular(changeButtton ? 20 : 8)),
                     ),
                   )
