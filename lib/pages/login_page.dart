@@ -52,11 +52,11 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(
                     height: 60.0,
                   ),
-                  Center(
-                    child: Container(
-                      height: 50,
-                      width: 150,
-                      color: Colors.lightBlue,
+                  Container(
+                    height: 50,
+                    width: 150,
+                    color: Colors.lightBlue,
+                    child: Center(
                       child: Text(
                         "Login",
                         style: TextStyle(color: Colors.white),
