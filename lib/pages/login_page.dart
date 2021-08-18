@@ -56,7 +56,8 @@ class _LoginPageState extends State<LoginPage> {
                     onTap: () {
                       Navigator.pushNamed(context, MyRoutes.homeRoute);
                     },
-                    child: Container(
+                    child: AnimatedContainer(
+                      duration: Duration(seconds: 1),
                       height: 50,
                       width: 150,
                       alignment: Alignment.center,
