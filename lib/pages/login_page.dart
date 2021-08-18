@@ -60,9 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                       "Login",
                       style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
                     ),
-                    decoration: BoxDecoration(
-                      color: Colors.lightBlue,
-                    ),
+                    decoration: BoxDecoration(color: Colors.lightBlue, borderRadius: BorderRadius.circular(8)),
                   )
                   // ElevatedButton(
                   //   child: Text("Login"),
